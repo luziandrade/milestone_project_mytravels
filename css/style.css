@@ -4,7 +4,6 @@
 /*---------------------------Logo*/
 
 
-
 .logo{
     background: url("../images/mytravelslogo.jpg");
     background-position: center;
@@ -15,20 +14,36 @@
 /*--------------------------Menu*/
 
 /*--------------------------Share*/
+.photo {
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
 
-.name, .photo{
-   background: url("../images/marcela.jpg");  
-   width: 100px;
-   height: 100px;
 }
+
+/*--------------------------Signup*/
+.signup{
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+    
+}
+
+
 /*--------------------------Footer*/
 
 #myFooter, .footer-social {
     text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 5px;
     background-color: #C6D4F1;
-
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    
+ 
 }
 
 .footer-social a i {
