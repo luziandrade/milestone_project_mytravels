@@ -11,38 +11,43 @@
     <title>My Travels</title>
 </head>
 <body>
+    <div id="container">
     <header>
- 
-       <div class="img-fluid logo"></div> 
- 
+        <div id="header">
+        <div class="img-fluid logo"></div> 
+        </div>
     </header>
- <div class="container">
-  <form action="action_page.php">
-
-    <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name..">
-
-    <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-
-    <label for="country">Country</label>
-    <select id="country" name="country">
-      <option value="australia">Australia</option>
-      <option value="canada">Canada</option>
-      <option value="usa">USA</option>
-    </select>
-
-    <label for="subject">Subject</label>
-    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-
-    <input type="submit" value="Submit">
-
-  </form>
-</div>    
     
-
+    <div id="body">
+    <form class="contactus">
+       <div class="form-group row">
+          <label for="inputName" class="col-sm-2 col-form-label">Name</label>
+          <div class="col-sm-10">
+            <input type="name" class="form-control" id="inputName" placeholder="Name">
+          </div>
+       </div>  
+       <div class="form-group row">
+         <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+         <div class="col-sm-10">
+           <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+         </div>
+       </div>
+       <div class="form-group row">
+         <label for="inputcontact" class="col-sm-2 col-form-label">Tell us!</label>
+         <div class="col-sm-10">
+           <textarea rows="5" name="inputcontact" id="inputcontact" class="form-control" placeholder="Tell us" required/></textarea>
+         </div>
+       </div>
+       <div class="form-group row text-center">
+          <div class="col-sm-10">
+             <button type="submit" class="btn btn-primary">Send</button>
+          </div>
+       </div>
+    </form>
+    </div>
+    </div>
 </body>
-<footer id="myFooter">
+<footer id="footer">
   <div class="footer-social">
     <a target="_blank" href="https://www.instagram.com/luzi_andrade/" class="social-icons">
         <i class="fab fa-instagram" aria-hidden="true"></i>
