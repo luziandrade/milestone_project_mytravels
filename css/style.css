@@ -3,13 +3,21 @@
 
 
 body{
-   margin:0;
-   padding:0;
-   height:100%;
-   min-height: 100vh;
-   padding: 60px 0;
+   
 }
 
+.main-photo{
+   background: url("../images/back.photo.jpg");  
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   background-size: cover; 
+   padding: 60px;
+   margin:0;
+   min-height: 100vh;
+    
+    
+}
+/*
 #container {
    min-height:100%;
    position:relative;
@@ -21,19 +29,100 @@ body{
    padding:10px;
    padding-bottom:76px;   
 }
+
+*/
+
+/*---------------------------Social Media*/
+.social {
+    padding: 5px;
+    text-align: right;
+    position: relative;
+    
+}
+
+.social a i {
+    font-size: 25px;
+    color:#FFFFFF ;
+    height: 45px;
+    width: 50px;
+    text-align: center;
+    line-height: 43px;
+
+}
+
+/*.main-photo {
+   background: url("../images/back.photo.jpg");  
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   background-size: cover; 
+   padding: 60px;
+   margin:0;
+   height:100%;
+   min-height: 100vh;
+}*/
+/*
+.content-container {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}*/
 /*---------------------------Logo*/
 
-
-.logo{
+/*.logo{
     background: url("../images/mytravelslogo.jpg");
     background-position: center;
     min-height: 150px;
     background-repeat: no-repeat;
+    position: absolute
+    
+    
+    
+}*/
+
+/*--------------------------AboutMe*/
+.content-container {
+    background-color: #ffffff;
+    text-align:center;
+    padding: 50px 80px;
+    display:block;
+    position: relative;
 }
 
-/*--------------------------Menu*/
+/*.icon-bar {
+    text-align: center;
+    position: relative;
+    padding-top: 20px;
+  
+}
+
+.icon-bar a {
+    width: 45px;
+    transition: all 0.3s ease;
+    color: #89ABEA;
+    font-size: 45px;
+    background-color: #ffffff;
+    border-radius: 51%;
+    padding: 10px;
+    height: 60px;
+    text-align: center;
+    line-height: 43px;
+    text-decoration: none;
+    
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}*/
 
 /*--------------------------Share*/
+.menu-container{
+    background-color: #C6D4F1;
+    min-height: 100%;
+    padding: 20px;
+}
+
+
+
+/*--------------------------Photos*/
 .photo {
     padding: 25px;
     display: flex;
@@ -50,28 +139,11 @@ body{
     max-width: 70%;
     
 }
+
 /*--------------------------Gallery*/
 
-
-.gallery {
-  margin: 5px;
-  border: 1px solid #ccc;
-  display: inline-block;
-  width: 180px;
-
-}
-.gallery:hover {
-  border: 1px solid #777;
-}
-
-.gallery img {
-  width: 100%;
-  height: auto
-}
-
-/*--------------------------Image*/
-
-.container.gallery-container {
+/*.container*/
+.gallery-container {
     min-height: 100vh;
     border-radius: 20px;
     
@@ -352,7 +424,7 @@ body{
 #footer, .footer-social {
     text-align: center;
     padding: 5px;
-    background-color: #C6D4F1;
+    background-color: #ffffff;
     position: relative;
     left: 0;
     bottom: 0;
@@ -364,8 +436,7 @@ body{
 
 .footer-social a i {
     font-size: 36px;
-    margin-right: 15px;
-    margin-left: 20px;
+    margin-left: 5px;
     background-color: #ffffff;
     color: #C6D4F1;
     border-radius: 51%;
@@ -380,16 +451,13 @@ body{
 
 .footer-social a i:hover{
     background-color: #C49C6B;
+    opacity: 0.5;
 }
 
 /*--------------------------Medias*/
 
 @media(max-width: 768px) {
-    body {
-        padding: 0;
-    }
-
-    .container.gallery-container {
+    .gallery-container {
         border-radius: 0;
     }
 }
