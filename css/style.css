@@ -13,7 +13,7 @@ body{
    background-size: cover; 
    padding: 60px;
    margin:0;
-   min-height: 100vh;
+   min-height: 60vh;
     
     
 }
@@ -121,12 +121,26 @@ body{
 
 /*--------------------------Share*/
 .container-adventures{
-    background-color: #C6D4F1;
+    background-color: #ffffff;
     min-height: 100%;
     padding: 20px;
     display:block;
     position: relative;
 }
+
+/*--------------------------Block*/
+.block-divider {
+    width: 0px;
+    height: 5px;
+    border: 0;
+    
+}
+
+.block-color{
+    background-color: #f05f40;
+}
+
+
 
 
 
