@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700');
-@import url('https://fonts.googleapis.com/css?family=Exo:100,200,300,400,500,600,700');
 
-
+@import url('https://fonts.googleapis.com/css?family=Oswald|Raleway');
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
 body{
-   
+     font-family: 'Raleway', sans-serif;
+     
+    
 }
-
 .main-photo{
    background: url("../images/back.photo.jpg");  
    background-attachment: fixed;
@@ -119,25 +119,35 @@ body{
   background-color: #000;
 }*/
 
-/*--------------------------Share*/
-.container-adventures{
-    background-color: #ffffff;
+/*--------------------------conatiner menu*/
+.container-link{
+    background-color: #C6D4F1;
     min-height: 100%;
-    padding: 20px;
+    padding: 25px;
     display:block;
     position: relative;
 }
 
+.link {
+    padding: 3px;
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+
+}
+
+.underline:hover{
+    text-decoration: none;
+}
+
 /*--------------------------Block*/
 .block-divider {
-    width: 0px;
-    height: 5px;
-    border: 0;
-    
+    width: 35px;
+    height: 4px;
+    border-radius: 20px;
 }
 
 .block-color{
-    background-color: #f05f40;
+    background-color: #ffffff;
 }
 
 
@@ -151,6 +161,11 @@ body{
     align-items: center;
     justify-content: center;
     position: relative;
+
+}    
+    
+.photo p{
+    font-style: italic;
 
 }
 
@@ -476,14 +491,22 @@ body{
     opacity: 0.5;
 }
 
+.gallery-container {
+    min-height: 100vh;
+    border-radius: 0;
+    }
+.hidden-xs {
+	display:none;
+}
+
 /*--------------------------Medias*/
 
-@media(max-width: 768px) {
+@media(min-width: 768px) {
     .gallery-container {
-        border-radius: 0;
+        border-radius: 20px;
     }
     .hidden-xs{
-        display: none;
+        display: normal;
     }
 }
 
