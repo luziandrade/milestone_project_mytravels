@@ -82,6 +82,13 @@ body{
     top: 10%;
     
 }
+
+.logo-pages{
+   background: url("../images/logo.jpg");
+   min-height: 150px;
+   background-repeat: no-repeat;
+   background-position: center;
+}
     
 
 /*--------------------------AboutMe*/
@@ -132,12 +139,21 @@ body{
     padding: 3px;
     text-align: center;
     font-family: 'Satisfy', cursive;
+    transform: scale(1); 
+}
+ 
 
+.link:hover{
+    z-index: 2;
+    transform: scale(1.2);
+    
 }
 
 .underline:hover{
     text-decoration: none;
 }
+
+
 
 /*--------------------------Block*/
 .block-divider {
@@ -168,6 +184,26 @@ body{
     font-style: italic;
 
 }
+/*--------------------------Container-pages*/
+.container{
+    padding: 20px;
+    
+}
+
+.pages-container{
+    background-color: #C6D4F1;
+    min-height: 100vh;
+    position:relative;
+    margin:0;
+    
+}
+/*--------------------------Texts*/
+.iceland, .nice, .scotland{
+    padding: 10px;
+    text-align: justify;
+}
+
+
 
 /*--------------------------Signup & contactus*/
 .signup, .contactus{
