@@ -198,18 +198,19 @@ body{
     
 }
 /*--------------------------Texts*/
-.iceland, .nice, .scotland{
+.adventures, .share{
     padding: 10px;
     text-align: justify;
 }
 
 
-
 /*--------------------------Signup & contactus*/
-.signup, .contactus{
-    padding-top: 10px;
+.contactus{
+    padding-top: 30px;
+    padding:50px;
     margin: 0 auto;
     max-width: 70%;
+    position: relative;
     
 }
 
