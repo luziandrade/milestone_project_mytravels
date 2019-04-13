@@ -1,6 +1,7 @@
 
-@import url('https://fonts.googleapis.com/css?family=Oswald|Raleway');
+@import url('https://fonts.googleapis.com/css?family=Raleway:500');
 @import url('https://fonts.googleapis.com/css?family=Satisfy');
+@import url('https://fonts.googleapis.com/css?family=Lato');
 body{
      font-family: 'Raleway', sans-serif;
      
@@ -115,7 +116,7 @@ body{
     
 }
 .block-larger{
-    width: 450px;
+    width: 250px;
     height: 4px;
     border-radius: 20px;
 }
@@ -140,16 +141,26 @@ body{
     
 }
 .pages-container{
-    background-color: #C6D4F1;
+    position: relative;
+    background: url("../images/bluepage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
     min-height: 100vh;
-    position:relative;
-    margin:0;
+    background-attachment: fixed;
+    
     
 }
 
+
 /*--------------------------Texts*/
+.invitation{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
 .adventures, .share{	
-    padding: 10px;	   
+    margin: 0;
     text-align: justify;	    
 }
 
