@@ -5,6 +5,7 @@
 body{
      font-family: 'Raleway', sans-serif;
      
+/*---------------------------Menu-Bar*/     
 }
 .icon-bar {
 	width: 22px; 
@@ -50,41 +51,6 @@ body{
     font-family: 'Raleway', sans-serif;
     
 }
-/*---------------------------Logos*/
-.main-photo{
-   background: url("../images/back.photo.jpg");  
-   background-attachment: fixed;
-   background-repeat: no-repeat;
-   background-size: cover; 
-   padding: 60px;
-   margin:0;
-   min-height: 70vh;
-    
-    
-}
-.logo{
-    background: url("../images/mytravelslogo.jpg");
-    background-position: center;
-    min-width: 500px;
-    min-height: 150px;
-    background-repeat: no-repeat;
-    position: fixed;
-    left: 50%;
-    margin-left: -250px;
-    top: 30%;
-    
-}
-.logo-pages{
-    background: url("../images/logo.jpg");
-    background-position: center;
-    min-height: 200px;
-    background-repeat: no-repeat;
-    padding-top: 20px;
-    position:relative;
-    top: 40px;
-
-}
-
 /*---------------------------Social Media*/
 .social {
     top: 0%;
@@ -100,6 +66,40 @@ body{
     line-height: 43px;
 
 }
+/*---------------------------Logos*/
+.main-photo{
+   background: url("../images/back.photo.jpg");  
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   background-size: cover; 
+   padding: 70px;
+   margin:0;
+   min-height: 70vh;
+    
+    
+}
+.logo{
+    background: url("../images/mytravelslogo.jpg");
+    background-position: center;
+    min-width: 500px;
+    min-height: 150px;
+    background-repeat: no-repeat;
+    position: fixed;
+    left: 50%;
+    margin-left: -250px;
+    top: 20%;
+    
+}
+.logo-pages{
+    background: url("../images/logo.jpg");
+    background-position: center;
+    min-height: 200px;
+    background-repeat: no-repeat;
+    padding-top: 20px;
+    position:relative;
+    top: 40px;
+
+}
 
 /*--------------------------AboutMe*/
 .content-container {
@@ -110,34 +110,23 @@ body{
     position: relative;
 }
 
-/*--------------------------container menu*/
-.container-link{
+/* --------------------------container subscribe*/
+.container-subscribe{
     background: url("../images/mountainpg.jpg");
     min-height: 60vh;
-    padding: 50px;
     display:block;
     position: relative;
     background-attachment: fixed;
     background-position: center;
-}
-
-.link, .menu {
-    padding: 3px;
-    text-align: center;
-    font-family: 'Satisfy', cursive;
-    min-height: 50px;
-    transform: scale(1);
 
 }
-
-.link:hover{
-    transform: scale(1.2);
-}
-
-.underline:hover{
-    text-decoration: none;
+.content-form{
+    max-width: 60%;
+    background-position: center;
+    margin:0 auto;
     
 }
+
 /*--------------------------Block*/
 .block-divider {
     width: 35px;
@@ -160,8 +149,9 @@ body{
     width: 250px;
     height: 4px;
     border-radius: 20px;
+    background-position: center;
+    
 }
-
 /*--------------------------Photos*/
 .photo {
     padding: 25px;
@@ -184,11 +174,11 @@ body{
 .pages-container{
     position: relative;
     background: url("../images/bluepage.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 20px;
-    min-height: 100vh;
+    min-height: 60vh;
+    padding: 50px;
+    display:block;
     background-attachment: fixed;
+    background-position: center;
     
     
 }
@@ -206,37 +196,28 @@ body{
 }
 
 /*--------------------------contactus*/
-.form{
-    margin:0 auto;
-    max-width: 60%;
-    position:relative;
-    
-}
 #contact{
     color: #000000;
-    font-family: 'Satisfy', cursive;
+    font-family: 'Raleway', sans-serif;
     text-align: center;
-
- }
-.btn{
-    background-color: #908FC9;
-    border-radius: 20px;
-
- }
-.text-center{
-    display: block;
-    max-width: 300px;
-    margin: auto;
-    transform: scale(1);
-
- }
-.text-center:hover{
-    transform: scale(1.2);
 
  }
 .invite{
     text-align: center;
     padding: 10px; 
+    
+}
+.contactus-container{
+    background-attachment: fixed;
+    background-image: url(../images/rockyop.png);
+    position: relative;
+    min-height: 100vh;
+    padding: 20px;
+    background-position: center;
+    
+}
+.border {
+    border: none!important; 
 }
 
 /*--------------------------Gallery*/
