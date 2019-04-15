@@ -67,12 +67,6 @@ Where users can submi their experiece
 ---
 The website is fully responsive, works on mobile devices and computer monitors.
 
-
-### Deployment
-Website was written using Cloud9 IDE, incorporating the technologies listed above. Every step of the project was commited to GITHUB, 
-it was made live using GITHUB Pages. The website can be found at:
-
-
 ### Testing
 ---
 UX  
