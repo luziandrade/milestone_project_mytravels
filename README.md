@@ -1,10 +1,10 @@
-# My travels responsive website project
+# My travels responsive website Project
 
 ### UX
 ---
 My goal was to build a website where users could share their experiences, read useful travelling tips, check incredible pictures and subscribe for exclusive content.
 
-### Objective
+#### Objective
 ---
 
 * Get more numbers of viewers
@@ -12,13 +12,11 @@ My goal was to build a website where users could share their experiences, read u
 * Get partnerships
 * Share tips
 
-### Users
----
+#### Users
 
 * People interested on travelling
 
-### Technologies used
----
+#### Technologies used
 
 * CSS3
 * HTML5
@@ -28,8 +26,7 @@ My goal was to build a website where users could share their experiences, read u
 * Cloud9 IDE
 * JavaScript
 
-### Features
----
+#### Features
 
 * Made for mobile first
 * Browser tested
@@ -42,6 +39,14 @@ Features left to implement
 
 * Travel guide
 * Real Time Map
+
+#### UX Files
+
+Ux files can be found [here](https://github.com/luziandrade/milestone_project_mytravels/tree/master/user-design-experience "Luana's user"), they are organized in the following order:
++ Scope Plane
++ Skeleton Plane
++ Strategy Plane
++ Structure Plane
 
 
 ### Menu items
@@ -60,7 +65,7 @@ Places I have been to: Iceland, Nice, Scotland.
 What other people say about their adventures.
 
 #### [Contact us](https://mytravels-milestone-luanaandrade.c9users.io/contactus.html "Contact us")
-Where users can submi their experiece 
+Where users can submit their experiece 
 
 
 ### Functionality of the projet
@@ -78,9 +83,11 @@ The user needs checklist:
 + User is able to contact by email form.
 
 #### Code
+
 The site was checked with W3C HTML and CSS validators. 
 
 #### Browser
+
 Tested on the following browsers and devices:
 
 + Chrome
@@ -101,12 +108,12 @@ Lightbox gallery was used in the [Gallery](https://mytravels-milestone-luanaandr
 ---
 I planned on using Parallax Scrolling effect, dividing the website by section, however I released I had too much content, and 
 it would require from the user to scroll down constantly and it could result in a bad user experience. So I decided to 
-divide index page into 2 sections [About](https://mytravels-milestone-luanaandrade.c9users.io/index.html) me and [Subscribe](https://mytravels-milestone-luanaandrade.c9users.io/index.html).
+divide index page into 2 sections [About me](https://mytravels-milestone-luanaandrade.c9users.io/index.html) and [Subscribe](https://mytravels-milestone-luanaandrade.c9users.io/index.html).
 
 ### Deployment
 ---
 Website was written using Cloud9 IDE, incorporating the technologies listed above. Every step of the project was commited to GITHUB, 
-it was made live using GITHUB Pages. The website can be found at: [Link preview] (https://luziandrade.github.io/milestone_project_mytravels/)
+it was made live using GITHUB Pages. The website can be found here: [Link preview](https://luziandrade.github.io/milestone_project_mytravels/ "").
 
 I have commited each change to GITHUB by doing the following into the terminal:
 1. git init
@@ -122,9 +129,15 @@ I have commited each change to GITHUB by doing the following into the terminal:
 
 #### Content
 
-Content used in this site were obtained from:
+Content used in [about me](https://mytravels-milestone-luanaandrade.c9users.io/index.html "Luana's Homepage") this site were obtained from:
 + [https://www.revolutionontheroad.com/](https://www.revolutionontheroad.com/)
 + https://theblondeabroad.com/
+
+[Shared Experience](https://mytravels-milestone-luanaandrade.c9users.io/share.html "Share") content was written by my friends, academic purpose only.
+[Adventures](https://mytravels-milestone-luanaandrade.c9users.io/adventures.html "Luana's adventures") content was obtained from:
++ [https://theblondeabroad.com/iceland/](https://theblondeabroad.com/iceland/)
++ https://www.youcouldtravel.com/travel-blog/nice-travel-guide
++ https://www.nomadicmatt.com 
 
 #### Media
 
@@ -132,8 +145,8 @@ The photos were taken by me.
 
 ### Acknowledgements
 
-The parallax effect was found https://www.w3schools.com/howto/howto_css_parallax.asp
-The Lightbox effect was found https://demo.tutorialzine.com/2017/02/freebie-4-bootstrap-gallery-templates/#grid  
-Hamburger navegation bar was found here https://getbootstrap.com/docs/4.0/components/navbar/
+The parallax effect was found [here](https://www.w3schools.com/howto/howto_css_parallax.asp)  
+The Lightbox effect was found [here](https://demo.tutorialzine.com/2017/02/freebie-4-bootstrap-gallery-templates/#grid)  
+Hamburger navegation bar was found [here](https://getbootstrap.com/docs/4.0/components/navbar/)
 
 #### This is for educational use only.
